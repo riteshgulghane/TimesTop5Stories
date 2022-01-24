@@ -47,7 +47,7 @@ const getTitleAndLink = async () => {
 
 // async function getTimeStories(req, res) {
    getTitleAndLink().then((res) => {
-      console.log(JSON.stringify(res));
+      console.log(res);
 
       // here you will get a list of 5 stories in the format as pr requested 
       // res.JSON(res);
